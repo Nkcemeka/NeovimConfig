@@ -32,4 +32,14 @@ return{
 	{'hrsh7th/cmp-path',},
 	{'hrsh7th/cmp-cmdline',},
 	{'hrsh7th/nvim-cmp',},
+
+	-- Install nvim-tree to get the file explorer functionality
+	{"nvim-tree/nvim-tree.lua",},
+	{"nvim-tree/nvim-web-devicons",},
+
+	-- Install nvim telescope the fuzzy finder
+	{
+          'nvim-telescope/telescope.nvim', tag = '0.1.2',
+          dependencies = { 'nvim-lua/plenary.nvim' },
+        },
 }
