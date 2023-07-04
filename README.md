@@ -12,3 +12,4 @@ completion etc. I will add more with time if I feel it is useful.
 - The current repo offers functionality for Python and C++. I will add more with time
 - If there is anything I should include that will be of help, let me know!
 - Some plugins like NvimTree and Mason allow you get help by pressing 'g?'
+- My options settings are being overridden by a python.nvim plugin. Will fix it if I get an easy way

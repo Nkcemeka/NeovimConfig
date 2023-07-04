@@ -1,5 +1,8 @@
 -- Main init.lua for neovim
 
+-- Change mapleader to allow for Telescope key mappings
+vim.g.mapleader = " "
+
 -- **** Bootstrap Lazy Plugin ****
 -- set installation path for lazy 
 -- data path for nvim should be ~/.local/share/nvim and it appends

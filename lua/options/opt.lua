@@ -1,8 +1,6 @@
 -- This contains my options for nvim
 
 local o = vim.opt
--- Set leader to space
-vim.api.nvim_set_keymap('n', '<Space>', '<Nop>', { noremap = true, silent = true })
 
 -- no. of spaces for autoindents to 2
 o.shiftwidth = 2 
