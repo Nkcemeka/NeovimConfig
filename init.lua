@@ -20,6 +20,7 @@ if not vim.loop.fs_stat(lazypath) then -- checks if lazy is installed
 end
 vim.opt.rtp:prepend(lazypath) -- Add the cloned plugin to runtime path of nvim
 
+
 -- Load the lazy module with require and call the setup method
 -- from the lazy module
 -- plugins is a table that contains name of plugin, url to git repo
@@ -29,6 +30,10 @@ vim.opt.rtp:prepend(lazypath) -- Add the cloned plugin to runtime path of nvim
 -- determines lazy-load of plugins by default and log_level which
 -- is log level for plugin.
 require("lazy").setup("plugins")
+
+-- Require keymaps and options
+require("keymaps.keymap")
+require("options.opt")
 
 -- Activate necessary plugins
 require("mason").setup({
