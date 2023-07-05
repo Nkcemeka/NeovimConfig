@@ -61,7 +61,7 @@ require("lspconfig").clangd.setup {}
 -- Set up nvim-lint for linting
 require('lint').linters_by_ft = {
   markdown = {'vale',},
-  python = {'pylint'},
+  python = {'pycodestyle'},
   cpp = {'cpplint'},
 }
 -- autocmd to trigger linting
