@@ -13,3 +13,4 @@ completion etc. I will add more with time if I feel it is useful.
 - If there is anything I should include that will be of help, let me know!
 - Some plugins like NvimTree and Mason allow you get help by pressing 'g?'
 - My options settings are being overridden by a python.nvim plugin. Will fix it if I get an easy way
+- My python linter is pylint and the LSP is jedi. You need to go to: ~/.local/share/nvim/mason/packages/pylint/venv/venv.cfg and set its include-site-system-pacakes to true. This should be done for jedi as well.
