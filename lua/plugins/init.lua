@@ -42,4 +42,8 @@ return{
           'nvim-telescope/telescope.nvim', tag = '0.1.2',
           dependencies = { 'nvim-lua/plenary.nvim' },
         },
+
+        -- Install vsnip
+        {'hrsh7th/vim-vsnip',},
+        {'hrsh7th/vim-vsnip-integ',},
 }
