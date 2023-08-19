@@ -15,3 +15,8 @@ completion etc. I will add more with time if I feel it is useful.
 - My options settings are being overridden by a python.nvim plugin. Will fix it if I get an easy way
 - My python linter is pycodestyle and the LSP is jedi. You need to go to: ~/.local/share/nvim/mason/packages/jedi_language_server/venv/venv.cfg and set its include-site-system-pacakes to true/
 - To install pycodstyle, run pip install pycodestyle
+
+## Installation Steps
+- Install neovim
+- Place this repo in the .config folder and rename it to nvim
+- Run nvim in your terminal and the required packages would be downloaded
