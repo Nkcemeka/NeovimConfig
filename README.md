@@ -30,4 +30,4 @@ Pycodestyle is a good linter but can keep producing certain annoying warnings. T
 max-line-length = 100
 ignore = E226
 <br>
-To see more warnings to ignore, check out the pycodestyle docs [here](https://pep8.readthedocs.io/en/stable/intro.html)
+To see more warnings to ignore, check out the pycodestyle docs [here][https://pep8.readthedocs.io/en/stable/intro.html]
