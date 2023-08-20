@@ -20,3 +20,14 @@ completion etc. I will add more with time if I feel it is useful.
 - Install neovim
 - Place this repo in the .config folder and rename it to nvim
 - Run nvim in your terminal and the required packages would be downloaded
+
+## Pycodestyle Settings
+Pycodestyle is a good linter but can keep producing certain annoying warnings. To disable it, do the following:
+- Go to ~/.config
+- Create a file called pycodestyle .
+- Type the following below
+[pycodestyle]
+max-line-length = 100
+ignore = E226
+<br>
+To see more warnings to ignore, check out the pycodestyle docs [here](https://pep8.readthedocs.io/en/stable/intro.html)
