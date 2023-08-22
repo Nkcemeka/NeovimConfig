@@ -8,7 +8,7 @@ This is my personal neovim setup. It contains my personal code, ideas and other 
 ## Linux Installation Steps
 - Install neovim. I suggest you do this manually by extracting the zip or tar file to your home directory. Using the apt-manager will use a stale version which might be incompatible with Lazy.
 - Clone this repo to the .config folder and rename it to nvim
-- Install value on your Linux distro. Check [here](https://vale.sh/docs/vale-cli/installation/)
+- Install vale on your Linux distro. Check [here](https://vale.sh/docs/vale-cli/installation/)
 - Run nvim in your terminal and the required packages would be downloaded
 
 ## Windows Installation
@@ -37,5 +37,5 @@ Pycodestyle is a good linter but can keep producing certain annoying warnings. T
 [pycodestyle]
 max-line-length = 100
 ignore = E226
-<br>
+<br/>
 To see more warnings to ignore, check out the pycodestyle docs [here](https://pep8.readthedocs.io/en/stable/intro.html).
