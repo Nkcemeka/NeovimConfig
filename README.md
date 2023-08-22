@@ -17,10 +17,17 @@ completion etc. I will add more with time if I feel it is useful.
 - To install pycodstyle, run pip install pycodestyle
 - To see hover information, go to command mode and press <SHIFT>+k
 
-## Installation Steps
+## Linux Installation Steps
 - Install neovim
 - Place this repo in the .config folder and rename it to nvim
 - Run nvim in your terminal and the required packages would be downloaded
+
+## Windows Installation
+- Install the chocolatey package manager on Windows Powershell
+- Install neovim with chocolatey
+- In $HOME/AppData/Local (Ignore my path inaccuracies), clone this repo and rename it to nvim
+- Install vale from chocolatey to help with the linting process
+- Viola, you are done! Everything should work perfectly.
 
 ## Pycodestyle Settings
 Pycodestyle is a good linter but can keep producing certain annoying warnings. To disable it, do the following:
