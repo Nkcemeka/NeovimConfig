@@ -46,4 +46,7 @@ return{
         -- Install vsnip
         {'hrsh7th/vim-vsnip',},
         {'hrsh7th/vim-vsnip-integ',},
+
+        -- Install Copilot
+        {"github/copilot.vim",},
 }
